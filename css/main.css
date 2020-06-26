@@ -10,12 +10,16 @@
 a {
   text-decoration: none;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #003049;
 }
 
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
+  color: #003049;
 }
 
 p {
@@ -23,8 +27,13 @@ p {
   font-weight: 500;
 }
 
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
 body {
-  background-color: #f2f2f2;
+  background-color: #eae2b7;
 }
 
 .content {
@@ -40,20 +49,30 @@ body {
 
 .contentAbout .kiri {
   float: left;
-  width: 200px;
+  width: 300px;
   height: auto;
+  margin-right: 20px;
 }
 
 .contentAbout .kanan {
   float: left;
-  width: 200px;
+  width: 300px;
   height: auto;
+}
+.contentWorks {
+  padding: 200px 0 0 100px;
+}
+
+.contentHobby {
+  padding: 200px 0 0 100px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 40%;
+  width: 20%;
+  float: left;
+  margin-right: 20px;
 }
 
 .card:hover {
@@ -62,10 +81,4 @@ body {
 
 .container {
   padding: 2px 16px;
-}
-
-.card1 {
-  width: 400px;
-  height: 400px;
-  background-color: red;
 }
